@@ -1,7 +1,9 @@
 package p02_zmienne;
 
+//NK int globalna;
+
 public class Zmienne3 {
-	// zmienna statyzna - istnieje jeden egzemplarz w pamięci
+	// zmienna statyczna - istnieje jeden egzemplarz w pamięci
 	static int statyczna = 10;
 	
 	// zmienna instancyjna (inaczej: pole, atrybut) należy do obiektu

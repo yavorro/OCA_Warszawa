@@ -29,7 +29,7 @@ public class Zasieg1 {
 		
 		{
 			// wolno przesłaniać zmienne klasowe za pomocą zmiennych lokalnych
-			int x = 300;	
+			int x = 300;
 			System.out.println("G: " + x);
 			if(true) {
 				// nie wolno przesłaniać zmiennych lokalnych
@@ -37,6 +37,8 @@ public class Zasieg1 {
 				// System.out.println("H: " + x);
 			}
 		}
+		
+		System.out.println("K: " + x);
 	}
 
 }

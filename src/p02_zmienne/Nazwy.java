@@ -22,9 +22,13 @@ public class Nazwy {
 		String _ = "aaa";
 		System.out.println(_);
 		
+		/*
 		// Od Javy 10
-		// var y = 100;
-		
+		var y = 100;
+		y = 101; // OK
+		y = 3.14; // źle
+		y = "Ala ma kota"; // źle
+		*/
 	}
 
 }
