@@ -27,6 +27,8 @@ public class Tablice2 {
 		// utworzenie tablicy
 		a = new int[10];
 		
+		int[] a1, a2;
+		
 		int x = (int)(100.0 * Math.random());
 		int[] b = new int[x / 2]; // to nie musi być stała, rozmiar może być policzony w czasie działania programu
 		System.out.println("b.length = " + b.length);
@@ -38,9 +40,15 @@ public class Tablice2 {
 		// to jest poprawna składnia:
 		int d[] = new int[13];
 		
+		int d1[], d2[], d3;
+		d1 = new int[1];
+		d3 = 15;
+		
+		int n = 50;
+		
 		// deklaracje nowych zmiennych:
-		int[] e = {10, 20, 30, 40, 50};
-		int[] f = {10, 20, 30, 40, 50,};
+		int[] e = {10, 20, 30, 40, n};
+		int[] f = {10, 20, 30, 40, n,};
 		int[] g = new int[] {10, 20, 30, 40, 50};
 		
 		// jeśli to już nie jest deklaracja, tylko przypisanie itp.

@@ -22,6 +22,7 @@ public class Tablice4 {
 		
 		System.out.println("zwykły for");
 		for (int i = 0; i < t.length; i++) {
+			System.out.println(t[i] + " -> " + (t[i]+1));
 			t[i]++;
 		}
 		System.out.println(Arrays.toString(t));
