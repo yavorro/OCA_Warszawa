@@ -34,6 +34,13 @@ public class Ciekawostki {
 		// Praktyczny morał: double nie używa się do liczenia pieniędzy.
 		// Lepszą alternatywą jest wyspecjalizowana klasa BigDecimal.
 		
+		// Liczba całkowita zapisana w kodzie zaczynając od cyfry 0, jest w systemie ósemkowym.
+		int n = 0321;
+		System.out.println(n);
+		System.out.println(0321);
+		
+		System.out.println();
+		
 		// Od Javy 7 między cyframi można wpisywać znaki _ , które nie zmieniają wartości
 		int i = 123_456_789;
 		System.out.println(i);

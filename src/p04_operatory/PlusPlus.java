@@ -35,9 +35,10 @@ public class PlusPlus {
 		System.out.println(d);
 		System.out.println();
 		
-		x = 0x20;
-		System.out.println(x);
-		System.out.println(++x);
+		x = 100;
+		y = x += 5;
+		System.out.println(" += 5");
+		System.out.println("x: " + x + "    ,    y: " + y);
 		
 	}
 

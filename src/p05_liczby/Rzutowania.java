@@ -34,7 +34,7 @@ public class Rzutowania {
 		x = (int)f;  // obcina do wartości całkowitej
 		System.out.println(x); // 100
 		
-		f = 4e9f;
+		f = 4e9f; // 4 * 10^9 czyli 4mld
 		x = (int)f; // po wyjściu poza zakres przyjmuje MAXINT / MININT
 		System.out.println(x);
 		
@@ -80,11 +80,11 @@ public class Rzutowania {
 		System.out.println(x);
 		// rzutowanie liczb całkowitych - bierzemye ostatnie bity z zapisu liczby w pamięci
 		// zobaczę to samo, co w int overflow gdy mnożyłem 5 * 1000000000
-		System.out.println(5 * 1_000_000_000);
+		System.out.println("5mld long   rzut na int: " + x);
 		
 		double d = 5_000_000_000.0;
 		x = (int)d;
-		System.out.println(x);
+		System.out.println("5mld double rzut na int: " + x);
 		// rzutowanie float i double na liczbę całkowitą - bierzemy wartość, która jest najbliżej,
 		// w tym przypadku będzie to Integer.MAX_VALUE
 		

@@ -34,6 +34,9 @@ public class LiteralyLiczbowe {
 		//x = 1000_;
 		x = 10______00; // po prostu tysiąc
 		
+		// dopuszczalne są tylko pomiędzy cyframi.
+		// nie na początku, nie na końcu, nie obok kropki ani obok litery typu i wykładnika
+		
 		x = 0x0F_FF_80_00;
 		x = 0b0011_0101;
 		
