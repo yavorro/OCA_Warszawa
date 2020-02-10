@@ -38,6 +38,17 @@ public class Warunki {
 			System.out.println("To nie jest pięć");
 			System.out.println("i jeszcze to"); // ta instrukcja wykona się zawsze, bo ona nie należy do else
 
+		
+		// średnik za if-em (analogicznie: za else, while, for)
+		// oznacza pustą instrukcję
+		// AAAAAA wypisze się zawsze
+		if(liczba == 0);
+		System.out.println("AAAAAA");
+		
+		// BBBBBB wypisze się gdy liczba nie jest równa 1
+		if(liczba == 1);
+		else System.out.println("BBBBB");
+			
 		// W Javie nie ma automatycznej konwersji liczb (ani innych rzeczy) na boolean
 //		if(liczba) {
 //			System.out.println("Nie zero");
