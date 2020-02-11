@@ -9,6 +9,7 @@ public class Polimorfizm2 {
 				new Osoba("Ala", "Kowalska", 44),
 				new Osoba("Ola", "Malinowska", 33),
 				new Student("Adam", "Abacki", 20, 1, "medycyna"),
+				new StudentInformatyki("Inf", "Infobacki", 23, 3),
 				new Pracownik("Jan", "Kowalski", 40, "kierowca", 3300)
 		};
 		
