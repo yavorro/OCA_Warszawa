@@ -13,5 +13,9 @@ public class A {
 		return "metoda instancyjna A";
 	}
 	
+	void wypiszA() {
+		System.out.println(zmienna_instancyjna);
+	}
+	
 
 }

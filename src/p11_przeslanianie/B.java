@@ -13,5 +13,8 @@ public class B extends A {
 		return "metoda instancyjna B";
 	}
 	
-
+	void wypiszB() {
+		System.out.println(zmienna_instancyjna);
+	}
+	
 }

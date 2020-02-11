@@ -8,8 +8,9 @@ public class A {
 		System.out.println(statyczna);
 		//NK System.out.println(instancyjna); // bo "nie wiemy z jakiego obiektu"
 		System.out.println(new A().instancyjna);
+		
+		//NK instancyjna();
 	}
-	
 
 	void instancyjna() {
 		System.out.println(statyczna);
@@ -18,6 +19,8 @@ public class A {
 		
 		System.out.println(instancyjna);
 		System.out.println(this.instancyjna);
+		
+		statyczna(); // OK
 	}
 
 }

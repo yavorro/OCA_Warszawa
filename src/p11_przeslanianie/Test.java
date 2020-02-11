@@ -14,12 +14,17 @@ public class Test {
 		System.out.println(a.metoda_statyczna());
 		System.out.println(a.metoda_instancyjna());
 		System.out.println();
+		a.wypiszA();
+		System.out.println();
 
 		System.out.println("B b");
 		System.out.println(b.zmienna_statyczna);
 		System.out.println(b.zmienna_instancyjna);
 		System.out.println(b.metoda_statyczna());
 		System.out.println(b.metoda_instancyjna());
+		System.out.println();
+		b.wypiszA();
+		b.wypiszB();
 		System.out.println();
 
 		for(A e : razem) {
