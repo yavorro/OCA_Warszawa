@@ -7,5 +7,12 @@ public class Osoba {
 	// * zmienna instancyjna (instance variable)
 	String imie, nazwisko;
 	int wiek;
+	
+	// metody, czyli czynności, które będą mogłby wykonać obiekty tej klasy
+	// metoda bez "static" jest metodą instancyjną, czyli wyobrażamy sobie, że to obiekty wykonuje metodę
+	void przedstawSie() {
+		System.out.println("Nazywam się " + imie + " " + nazwisko + " i mam " + wiek + "lat.");
+	}
+	
 
 }

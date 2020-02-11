@@ -25,6 +25,11 @@ public class Przyklad1 {
 		// każdy obiekt ma swoje egzemplarze zmiennych instancyjnych
 		System.out.println(a.imie + " " + a.nazwisko + " " + a.wiek);
 		System.out.println(b.imie + " " + b.nazwisko + " " + b.wiek);
+		System.out.println();
+		
+		a.przedstawSie();
+		b.przedstawSie();
+		
 		
 		// W Javie nie usuwa się obiektów z pamięci - zajmuje się tym JVM, a dokładnie garbage collector
 	}
