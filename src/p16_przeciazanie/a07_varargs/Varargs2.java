@@ -26,7 +26,8 @@ public class Varargs2 {
 		m("ala");
 		m("ola", "ala", "ela");
 		m(null, "ola", "ala", null);
-		// m(null);  // bo kompilator "myśli" że null jako tablica i w pętli for-each nastepuje NPE
+		m(null, null); // tablica String[] zawierająca dwa nulle
+		//NPE m(null);  // bo kompilator "myśli" że null jako tablica i w pętli for-each nastepuje NPE
 		m((String)null);  // a teraz jednak tablica zawierająca nulla
 		
 		String[] tablica = {"ola", "ala", "ela"};

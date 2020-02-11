@@ -21,8 +21,8 @@ public class ProsteDzialanieWyjatkow {
 	public static void main(String[] args) {
 		
 		try {
-			metoda("Ala ma kota");
-			// metoda(null);
+			//metoda("Ala ma kota");
+			 metoda(null);
 			// metoda("");
 			// metoda("A");
 			System.out.println("Przed catch");		

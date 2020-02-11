@@ -28,7 +28,8 @@ public class Varargs1 {
 	
 	
 	/* Parametr z wielokropkiem może być tylko jeden, na samym końcu.
-	 * Te wersje się nie kompilują:
+	 Te wersje się nie kompilują:
+	 
 	void p(String... args, int... ints) {
 		
 	}
@@ -38,7 +39,12 @@ public class Varargs1 {
 	}
 	*/
 	
-	void test(int a, int b, int... reszta) {
+	// deklaracje są poprawne, niejednoznaczna będzie próba wywołania
+	static void test(int a, int... reszta) {
+		// OK
+	}
+
+	static void test(int a, int b, int... reszta) {
 		// OK
 	}
 
@@ -61,6 +67,8 @@ public class Varargs1 {
 		int[] t = new int[100];
 		Arrays.fill(t, 7);
 		System.out.println(sum(t));
+		
+		//NK test(1,2,3);
 
 	}
 

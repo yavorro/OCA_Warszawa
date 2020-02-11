@@ -2,6 +2,8 @@ package p16_przeciazanie.a03_overloading_overriding;
 
 // Ta wersja poprawna, informacja czy osoba ma zniżkę jest podawana w metodzie instancyjnej, która jest nadpisywana w podklasie.
 // Nieintuicyjne (nieżyciowe?... :) ) jest to, że osoba sama deklaruje czy ma zniżkę...
+// Nawet patrząc z punktu widzenia dobrych/złych praktyk programistycznych nie podoba mi się to,
+// że aby działał klasa KasaBiletowa muskmy dodawać nową metodę do klas Osoba i Student.
 // Nadpisywanie (overriding) działa w czasie wykonania (runtime) i bierze pod uwagę faktyczną klase obiektu w pamięciu.
 
 public class BiletUlgowy3 {

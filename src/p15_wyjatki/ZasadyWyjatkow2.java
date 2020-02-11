@@ -7,17 +7,15 @@ import java.util.Scanner;
 public class ZasadyWyjatkow2 {
 
 	public static void main(String[] args) {
-	/*
-		try {
-			System.out.println();
-		} catch(Exception e) {
-			System.out.println("E");
-		} catch(RuntimeException e) {
-			// "martwy catch", bo Exception już ten przypadek obejmowało
-			System.out.println("RE");
-		}
-		
-		*/
+	
+//		try {
+//			System.out.println();
+//		} catch(Exception e) {
+//			System.out.println("E");
+//		} catch(RuntimeException e) {
+//			// "martwy catch", bo Exception już ten przypadek obejmowało
+//			System.out.println("RE");
+//		}
 	}
 
 }

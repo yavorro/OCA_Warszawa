@@ -11,7 +11,7 @@ public class ZasadyWyjatkow4 {
 			System.out.println(e);
 			throw e;
 		} catch(Exception e) {
-			// ten catch nie wyłapie wyjątku wyrzuconego we wczesniejszym catchu
+			// ten catch nie wyłapie wyjątku wyrzuconego we wcześniejszym catchu
 			System.out.println(e);
 		}
 	}
