@@ -24,5 +24,11 @@ public class Osoba {
 		this.nazwisko = nazwisko;
 		this.wiek = wiek;
 	}
+
+	// tutaj nadpisujemy metodę toString z klasy Object
+	// nie ma obowiązku pisania @Override
+	public String toString() {
+		return imie + " " + nazwisko + " (" + wiek + " l.)";
+	}
 	
 }

@@ -18,7 +18,6 @@ public class Wypisywanie {
 		
 		s = String.valueOf(osoba);
 		System.out.println(s);
-		
 	}
 
 }
