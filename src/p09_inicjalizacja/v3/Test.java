@@ -4,7 +4,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Początek main");
+		System.out.println("Początek main, wątek " + Thread.currentThread().getId());
 		
 		// deklaracja zmiennej nie wymusza ładowania klasy
 		B bbb = null;
@@ -25,6 +25,6 @@ public class Test {
 	}
 
 	static {
-		System.out.println("static Test");
+		System.out.println("static Test, wątek " + Thread.currentThread().getId());
 	}
 }
