@@ -16,11 +16,16 @@ public class Osoba {
 
 	
 	void przedstawSie() {
-		System.out.println("Nazywam się " + imie + " " + nazwisko + " i mam " + wiek + " lat.");
+		System.out.println("Jestem Osobą, zazywam się " + imie + " " + nazwisko + " i mam " + wiek + " lat.");
 	}
 	
 	public String toString() {
 		return imie + " " + nazwisko + " (" + wiek + " l.)";
 	}
+	
+	boolean jestPelnoletnia() {
+		return wiek >= 18;
+	}
+	
 	
 }

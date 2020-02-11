@@ -27,6 +27,16 @@ public class Przyklad5 {
 		student.przedstawSie();
 		
 		System.out.println("średnia " + student.sredniaOcen());
+		System.out.println();
+		
+		// z nadklasy nie są dziedziczone konstruktory
+		
+		// Student st2 = new Student("Jan", "Kowalski", 20);
+		
+		Student st3 = new Student("Adam", "Nowacki", 20, 2, "mechanika");
+		System.out.println(st3);
+		st3.przedstawSie();
+		
 		
 	}
 
