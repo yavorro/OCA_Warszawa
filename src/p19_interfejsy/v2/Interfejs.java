@@ -1,6 +1,8 @@
 package p19_interfejsy.v2;
 
 public interface Interfejs {
+	String NAZWA = "Vavatech";
+	
 	int wartosc();
 	
 	// Od Javy 8 interfejsy mogą zawierać metody z implementacjami
@@ -13,12 +15,17 @@ public interface Interfejs {
 		return "Warszawa";
 	}
 	
-	// słowo default jest wymagane (ono w pewnym sensie unieważnia abstract)
+	// słowo jest wymagane
+//	void n() {
+//		System.out.println("cokolwiek");
+//	}
+	
+	// default w pewnym sensie unieważnia abstract
 	// to jest niepoprawne składniowo:
-	/* abstract default void m() {
-		System.out.println("cokolwiek");
-	}
-	*/
+//	abstract default void m() {
+//		System.out.println("cokolwiek");
+//	}
+	
 	
 	
 	// 2) metody statyczne
