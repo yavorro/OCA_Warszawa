@@ -19,5 +19,10 @@ public class ProstyCzas {
 		// uwaga: nanosekumdy podajemy jako liczbę całkowitą (int)
 		LocalTime czas4 = LocalTime.of(12, 15, 33, 333222111);
 		System.out.println(czas4);
+
+		// to oznacza jedną nanosekundę (miliardową część sekundy),
+		// a nie jedną dizesiątą sekundy
+		LocalTime czas5 = LocalTime.of(12, 15, 33, 1);
+		System.out.println(czas5);
 	}
 }

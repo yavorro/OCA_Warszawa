@@ -50,5 +50,11 @@ public class DataICzas {
 		dt = LocalDateTime.parse("2019-05-08T14:55:04.360");
 		System.out.println(dt);
 		
+		dt = LocalDateTime.parse("2019-05-08T14:55");
+		System.out.println(dt);
+
+		dt = LocalDateTime.parse("2019-05-08T14:55:00");
+		System.out.println(dt); // sekundy równe zero w ogóle się nie wypisują
+
 	}
 }

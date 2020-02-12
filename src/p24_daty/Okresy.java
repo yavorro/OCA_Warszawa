@@ -24,7 +24,7 @@ public class Okresy {
 		System.out.println(przyszlosc2);
 		
 		Period p3 = p2.normalized();
-		System.out.println(p3); // miesiące są normalizowane, ale dni nie, bo się nie da
+		System.out.println(p3); // miesiące są normalizowane (miesiące powyżej 12 są zamieniane na lata), ale dni nie, bo się nie da
 		System.out.println();
 		
 		Period p4 = Period.parse("P3M2W10D");  // tygodnie od razu przeliczają się na dni, ale miesiące nie przeliczają się na lata

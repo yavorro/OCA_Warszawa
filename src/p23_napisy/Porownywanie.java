@@ -30,6 +30,8 @@ public class Porownywanie {
 		System.out.println();
 		
 		System.out.println("intern");
+		// intern zwraca referencję do stringa o takiej samej treści, ale pochodzącego z puli stringów
+		// jeśli w puli jeszcze go nie było, to dodawany
 		System.out.println(a.intern() == f.intern());
 		System.out.println();
 		

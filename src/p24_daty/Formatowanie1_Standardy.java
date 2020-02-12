@@ -26,7 +26,9 @@ public class Formatowanie1_Standardy {
 		System.out.println();
 		
 		for (DateTimeFormatter df : formats) {
+			// formatowanie można wywoływać na dwa sposoby
 			System.out.println(teraz.format(df));
+			System.out.println(df.format(teraz));
 		}
 	}
 }

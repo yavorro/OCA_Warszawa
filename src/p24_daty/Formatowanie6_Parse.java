@@ -11,6 +11,7 @@ public class Formatowanie6_Parse {
 		DateTimeFormatter df = DateTimeFormatter.ofPattern("EEEE,yyyyMMdd HH@mm");
 		System.out.println(data.format(df));
 		System.out.println(data);
+		System.out.println();
 		
 		data = LocalDateTime.parse("wtorek,19981208 12@13", df);
 		System.out.println(data);

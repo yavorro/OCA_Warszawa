@@ -26,6 +26,7 @@ public class BudowanieNapisow_PomiarCzasu {
 	
 	static String kolejneLiczbySB(int n) {
 		StringBuilder s = new StringBuilder();
+		
 		for(int i = 1; i <= n; i++) {
 			s.append(i).append(' ');
 		}

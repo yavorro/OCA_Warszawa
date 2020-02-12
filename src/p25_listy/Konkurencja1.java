@@ -14,6 +14,7 @@ public class Konkurencja1 {
 		lista.add("ula");
 		System.out.println("Na początku: " + lista);
 
+		// można używać wielu iteratorów do odczytu kolekcji - to jest OK
 		Iterator<String> it1 = lista.iterator();
 		while(it1.hasNext()) {
 			String element = it1.next();
