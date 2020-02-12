@@ -46,6 +46,7 @@ public class Wrappery2 {
 		
 		// Te klasy NIE SĄ podklasami Number
 		Boolean bbb = true;
+		// Boolean.FALSE,  Boolean.TRUE;
 		Character ccc = 'C';
 	}
 

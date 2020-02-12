@@ -14,7 +14,6 @@ public class Wrappery3_WielkaCiekawostka {
 		System.out.println(x == y);
 		System.out.println();
 		
-		
 		// wyjasnienie: automatyczny boxing jest robiony za pomocą valueOf:
 		x = Integer.valueOf(100);
 		y = Integer.valueOf(100);

@@ -5,9 +5,11 @@ public class Wrappery7 {
 	public static void main(String[] args) {
 		String tekst = "1234";
 		
+		// typ wyniku int
 		int x = Integer.parseInt(tekst);
 		System.out.println(2*x);
 		
+		// typ wyniku Integer
 		Integer y = Integer.valueOf(tekst);
 		
 		// skompiluje się też, ale mnie wydajne:
