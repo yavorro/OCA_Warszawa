@@ -1,4 +1,4 @@
-package p20_lambdy;
+package p20_lambdy.teraz;
 
 public class DoKwadratu implements FunkcjaLiczbowa {
 

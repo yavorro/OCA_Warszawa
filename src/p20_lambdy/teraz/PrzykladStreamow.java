@@ -1,4 +1,4 @@
-package p20_lambdy;
+package p20_lambdy.teraz;
 
 import java.util.stream.Stream;
 
